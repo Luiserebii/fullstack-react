@@ -318,7 +318,9 @@ window.Seed = (function () {
 
 		}
 
-	]	
+	];
+
+	return {smogonBWSets: smogonBWSets};	
 
 
-})
+}());
