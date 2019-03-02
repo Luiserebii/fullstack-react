@@ -212,7 +212,7 @@ window.Seed = (function () {
 			},
 			ivs: {
 				spe: 0
-			}
+			},
 			moveset: {
 				m1: "Spikes",
 				m2: "Leech Seed",
@@ -309,12 +309,12 @@ window.Seed = (function () {
 				def: 252,
 				spd: 8
 			},
-			moveset: {
-				m1: "Will-O-Wisp",
-				m2: "Taunt",
-				m3: "Scald",
-				m4: "Recover"
-			}
+			moveset: [
+				"Will-O-Wisp",
+				"Taunt",
+				"Scald",
+				"Recover"
+			]
 
 		}
 
