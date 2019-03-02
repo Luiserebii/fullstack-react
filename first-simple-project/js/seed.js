@@ -52,7 +52,7 @@ window.Seed = (function () {
 		LIFE_ORB: 5,
 		EVIOLITE: 6,
 		FOCUS_SASH: 7,
-		FOCUS_BAND: 8
+		FOCUS_BAND: 8,
 
 	};
 
@@ -88,7 +88,100 @@ window.Seed = (function () {
 				m4: "Spore"
 			}
 
-		}
+		},
+		{
+			id: 2,
+			name: "Cloyster",
+			typing: {
+				type1: Type.WATER,
+				type2: Type.ICE
+			},
+			stats: {
+				hp: 50,
+				atk: 95,
+				def: 180, 
+				spa: 85,
+				spd: 45, 
+				spe: 70
+			},
+			item: Item.FOCUS_SASH,
+			ability: "Skill Link",
+			nature: Nature.JOLLY,
+			evs: {
+				hp: 4,
+				atk: 252,
+				spe: 252
+			},
+			moveset: {
+				m1: "Shell Smash",
+				m2: "Icicle Spear",
+				m3: "Rock Blast",
+				m4: "Ice Shard"
+			}
+
+		},
+		{
+			id: 3,
+			name: "Donphan",
+			typing: {
+				type1: Type.GROUND
+			},
+			stats: {
+				hp: 90,
+				atk: 120,
+				def: 120, 
+				spa: 60,
+				spd: 60, 
+				spe: 50
+			},
+			item: Item.LEFTOVERS,
+			ability: "Sturdy",
+			nature: Nature.IMPISH,
+			evs: {
+				hp: 252,
+				def: 252,
+				spe: 4
+			},
+			moveset: {
+				m1: "Stealth Rock",
+				m2: "Earthquake",
+				m3: "Ice Shard",
+				m4: "Rapid Spin"
+			}
+
+		},
+		{
+			id: 4,
+			name: "Excadrill",
+			typing: {
+				type1: Type.GROUND,
+				type2: Type.STEEL
+			},
+			stats: {
+				hp: 60,
+				atk: 130,
+				def: 80, 
+				spa: 60,
+				spd: 60, 
+				spe: 70
+			},
+			item: Item.LEFTOVERS,
+			ability: "Mold Breaker",
+			nature: Nature.ADAMANT,
+			evs: {
+				hp: 176,
+				atk: 60,
+				spd: 252,
+				spe: 20
+			},
+			moveset: {
+				m1: "Low Sweep",
+				m2: "Mach Punch",
+				m3: "Bullet Seed",
+				m4: "Spore"
+			}
+
+		},				
 
 
 	]	
