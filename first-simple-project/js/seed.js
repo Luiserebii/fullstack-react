@@ -93,7 +93,7 @@ window.Seed = (function () {
 		{
 			id: 2,
 			name: "Cloyster",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/cloyster.gif",
 			typing: {
 				type1: Type.WATER,
 				type2: Type.ICE
@@ -125,7 +125,7 @@ window.Seed = (function () {
 		{
 			id: 3,
 			name: "Donphan",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/cloyster.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/donphan.gif",
 			typing: {
 				type1: Type.GROUND
 			},
