@@ -125,7 +125,7 @@ window.Seed = (function () {
 		{
 			id: 3,
 			name: "Donphan",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/cloyster.gif",
 			typing: {
 				type1: Type.GROUND
 			},
@@ -156,7 +156,7 @@ window.Seed = (function () {
 		{
 			id: 4,
 			name: "Excadrill",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/excadrill.gif",
 			typing: {
 				type1: Type.GROUND,
 				type2: Type.STEEL
@@ -189,7 +189,7 @@ window.Seed = (function () {
 		{
 			id: 5,
 			name: "Ferrothorn",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/ferrothorn.gif",
 			typing: {
 				type1: Type.GRASS,
 				type2: Type.STEEL
@@ -224,7 +224,7 @@ window.Seed = (function () {
 		{
 			id: 6,
 			name: "Garchomp",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/garchomp.gif",
 			typing: {
 				type1: Type.DRAGON,
 				type2: Type.GROUND
@@ -256,7 +256,7 @@ window.Seed = (function () {
 		{
 			id: 7,
 			name: "Heatran",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/heatran.gif",
 			typing: {
 				type1: Type.FIRE,
 				type2: Type.STEEL
@@ -288,7 +288,7 @@ window.Seed = (function () {
 		{
 			id: 8,
 			name: "Jellicent",
-			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
+			imgurl: "https://www.smogon.com/dex/media/sprites/bw/jellicent.gif",
 			typing: {
 				type1: Type.WATER,
 				type2: Type.GHOST
