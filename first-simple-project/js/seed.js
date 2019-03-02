@@ -175,14 +175,140 @@ window.Seed = (function () {
 				spe: 20
 			},
 			moveset: {
-				m1: "Low Sweep",
-				m2: "Mach Punch",
-				m3: "Bullet Seed",
-				m4: "Spore"
+				m1: "Swords Dance",
+				m2: "Earthquake",
+				m3: "Rock Slide",
+				m4: "Rapid Spin"
 			}
 
 		},				
+		{
+			id: 5,
+			name: "Ferrothorn",
+			typing: {
+				type1: Type.GRASS,
+				type2: Type.STEEL
+			},
+			stats: {
+				hp: 74,
+				atk: 94,
+				def: 131, 
+				spa: 54,
+				spd: 116, 
+				spe: 20
+			},
+			item: Item.LEFTOVERS,
+			ability: "Iron Barbs",
+			nature: Nature.RELAXED,
+			evs: {
+				hp: 252,
+				def: 48,
+				spd: 208
+			},
+			ivs: {
+				spe: 0
+			}
+			moveset: {
+				m1: "Spikes",
+				m2: "Leech Seed",
+				m3: "Power Whip",
+				m4: "Thunder Wave"
+			}
 
+		},	
+		{
+			id: 6,
+			name: "Garchomp",
+			typing: {
+				type1: Type.DRAGON,
+				type2: Type.GROUND
+			},
+			stats: {
+				hp: 108,
+				atk: 130,
+				def: 95, 
+				spa: 80,
+				spd: 85, 
+				spe: 102
+			},
+			item: Item.CHOICE_SCARF,
+			ability: "Rough Skin",
+			nature: Nature.JOLLY,
+			evs: {
+				hp: 4,
+				atk: 252,
+				spe: 252
+			},
+			moveset: {
+				m1: "Outrage",
+				m2: "Earthquake",
+				m3: "Stone Edge",
+				m4: "Dual Chop"
+			}
+
+		},	
+		{
+			id: 7,
+			name: "Heatran",
+			typing: {
+				type1: Type.FIRE,
+				type2: Type.STEEL
+			},
+			stats: {
+				hp: 91,
+				atk: 90,
+				def: 106, 
+				spa: 130,
+				spd: 106, 
+				spe: 77
+			},
+			item: Item.LEFTOVERS,
+			ability: "Flash Fire",
+			nature: Nature.CALM,
+			evs: {
+				hp: 248,
+				def: 8,
+				spd: 252
+			},
+			moveset: {
+				m1: "Lava Plume",
+				m2: "Protect",
+				m3: "Roar",
+				m4: "Toxic"
+			}
+
+		},	
+		{
+			id: 8,
+			name: "Jellicent",
+			typing: {
+				type1: Type.WATER,
+				type2: Type.GHOST
+			},
+			stats: {
+				hp: 100,
+				atk: 60,
+				def: 70, 
+				spa: 85,
+				spd: 105, 
+				spe: 60
+			},
+			item: Item.LEFTOVERS,
+			ability: "Water Absorb",
+			nature: Nature.BOLD,
+			evs: {
+				hp: 248,
+				def: 252,
+				spd: 8
+			},
+			moveset: {
+				m1: "Will-O-Wisp",
+				m2: "Taunt",
+				m3: "Scald",
+				m4: "Recover"
+			}
+
+		}
 
 	]	
 
