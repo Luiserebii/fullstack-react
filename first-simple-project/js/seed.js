@@ -60,7 +60,7 @@ window.Seed = (function () {
 	
 		{
 			id: 1,
-			name: "Breelom",
+			name: "Breloom",
 			imgurl: "https://www.smogon.com/dex/media/sprites/bw/breloom.gif",
 			typing: {
 				type1: Type.GRASS,
@@ -82,12 +82,12 @@ window.Seed = (function () {
 				atk: 252,
 				spe: 252
 			},
-			moveset: {
-				m1: "Low Sweep",
-				m2: "Mach Punch",
-				m3: "Bullet Seed",
-				m4: "Spore"
-			}
+			moveset: [
+				"Low Sweep",
+				"Mach Punch",
+				"Bullet Seed",
+				"Spore"
+			]
 
 		},
 		{
@@ -114,12 +114,12 @@ window.Seed = (function () {
 				atk: 252,
 				spe: 252
 			},
-			moveset: {
-				m1: "Shell Smash",
-				m2: "Icicle Spear",
-				m3: "Rock Blast",
-				m4: "Ice Shard"
-			}
+			moveset: [
+				"Shell Smash",
+				"Icicle Spear",
+				"Rock Blast",
+				"Ice Shard"
+			]
 
 		},
 		{
@@ -145,12 +145,12 @@ window.Seed = (function () {
 				def: 252,
 				spe: 4
 			},
-			moveset: {
-				m1: "Stealth Rock",
-				m2: "Earthquake",
-				m3: "Ice Shard",
-				m4: "Rapid Spin"
-			}
+			moveset: [
+				"Stealth Rock",
+				"Earthquake",
+				"Ice Shard",
+				"Rapid Spin"
+			]
 
 		},
 		{
@@ -178,12 +178,12 @@ window.Seed = (function () {
 				spd: 252,
 				spe: 20
 			},
-			moveset: {
-				m1: "Swords Dance",
-				m2: "Earthquake",
-				m3: "Rock Slide",
-				m4: "Rapid Spin"
-			}
+			moveset: [
+				"Swords Dance",
+				"Earthquake",
+				"Rock Slide",
+				"Rapid Spin"
+			]
 
 		},				
 		{
@@ -213,12 +213,12 @@ window.Seed = (function () {
 			ivs: {
 				spe: 0
 			},
-			moveset: {
-				m1: "Spikes",
-				m2: "Leech Seed",
-				m3: "Power Whip",
-				m4: "Thunder Wave"
-			}
+			moveset: [
+				"Spikes",
+				"Leech Seed",
+				"Power Whip",
+				"Thunder Wave"
+			]
 
 		},	
 		{
@@ -245,12 +245,12 @@ window.Seed = (function () {
 				atk: 252,
 				spe: 252
 			},
-			moveset: {
-				m1: "Outrage",
-				m2: "Earthquake",
-				m3: "Stone Edge",
-				m4: "Dual Chop"
-			}
+			moveset: [
+				"Outrage",
+				"Earthquake",
+				"Stone Edge",
+				"Dual Chop"
+			]
 
 		},	
 		{
@@ -277,12 +277,12 @@ window.Seed = (function () {
 				def: 8,
 				spd: 252
 			},
-			moveset: {
-				m1: "Lava Plume",
-				m2: "Protect",
-				m3: "Roar",
-				m4: "Toxic"
-			}
+			moveset: [
+				"Lava Plume",
+				"Protect",
+				"Roar",
+				"Toxic"
+			]
 
 		},	
 		{

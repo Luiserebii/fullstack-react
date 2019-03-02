@@ -7,7 +7,7 @@ class PokemonComponent extends React.Component {
 				<div className="pokemon-component">
 					<h3 className="name">{Seed.smogonBWSets[0].name}</h3>
 					<img src={Seed.smogonBWSets[0].imgurl}/>
-					<span>Typing: {Seed.smogonBWSets[0].type1}/{Seed.smogonBWSets[0].type2}</span><br />
+					<span>Typing: {Seed.smogonBWSets[0].typing.type1}/{Seed.smogonBWSets[0].typing.type2}</span><br />
 					<span>Stats: </span>
 						<ol>
 							<li>HP: {Seed.smogonBWSets[0].stats.hp}</li>
@@ -20,7 +20,7 @@ class PokemonComponent extends React.Component {
 					<span>Item: {Seed.smogonBWSets[0].item}</span><br />
 					<span>Ability: {Seed.smogonBWSets[0].ability}</span><br />
 					<span>Nature: {Seed.smogonBWSets[0].nature}</span><br />
-					<span>EVs: {Seed.smogonBWSets[0].evs}</span>
+					<span>EVs: {/*Seed.smogonBWSets[0].evs*/}</span>
 					<span>Moveset: </span>
 						<ol>
 							<li>{Seed.smogonBWSets[0].moveset[0]}</li>
