@@ -20,9 +20,18 @@ class Timer extends React.Component {
     isButtonStarted: false
   };
 
+  getButtonValue() {
+    return !this.state.isButtonStarted ? 'Start' | 'Stop';
+  }
+
   return (
     <div>
-      
+      <h1>{this.state.title}</h1>
+      <h3>{this.state.description}</h3>
+      <span style="font-size: 50px">{this.state.time}</span>
+      <input type="button" value="Edit">
+      <input type="button" value="Delete">
+      <input type="button" value={this.getButtonValue()}/>
     </div>
   );
 
