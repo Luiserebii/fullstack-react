@@ -40,6 +40,10 @@ class Timer extends React.Component {
 
 ```
 
+Questions:
+* How would deletion work? Perhaps we would call a function to delete the data in the JSON holding this info, and then refresh the app somehow? Does React do that onClick() or something? Do we call a refresh function?
+* What about editing; I'm thinking we hide this and then render the EditingTimer Component, something like that.
+* Wait, darn, props should be everything but the isButtonStarted, right...? Exactly how does this interact again? Should state be set to the info passed down by default?
 
 ### Running the app
 
